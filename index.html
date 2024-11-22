@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>Jovens Titãs: A Missão Secreta</title>
+</head>
+<body>
+    <main>
+        <!-- Passo 0 -->
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0-torre-titas.jpeg" alt="A Torre dos Titãs">
+            <p>Os Jovens Titãs recebem um alerta na Torre sobre uma nova ameaça. Robin convoca a equipe, e todos se reúnem na sala de estratégia.</p>
+            <button class="btn-proximo" data-proximo="1">Investigar uma cidade abandonada</button>
+            <button class="btn-proximo" data-proximo="2">Ir direto para enfrentar Slade</button>
+        </div>
+
+        <!-- Passo 1 -->
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1-cidade-abandonada.jpeg" alt="Cidade abandonada">
+            <p>Na cidade abandonada, vocês encontram estranhos dispositivos tecnológicos que parecem estar drenando energia do local.</p>
+            <button class="btn-proximo" data-proximo="3">Desativar os dispositivos</button>
+            <button class="btn-proximo" data-proximo="4">Seguir os rastros de energia</button>
+        </div>
+
+        <!-- Passo 2 -->
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2-slade.jpeg" alt="Slade no esconderijo">
+            <p>Slade está em seu esconderijo e parece ter antecipado sua chegada. Ele ativa armadilhas que separam a equipe.</p>
+            <button class="btn-proximo" data-proximo="5">Robin enfrenta Slade sozinho</button>
+            <button class="btn-proximo" data-proximo="6">Reunir a equipe para combater as armadilhas</button>
+        </div>
+
+        <!-- Passo 3 -->
+        <div class="passo" id="passo-3">
+            <p>Os dispositivos começam a reagir ao serem manipulados, ativando uma criatura robótica gigantesca que começa a atacar!</p>
+            <button class="btn-proximo" data-proximo="7">Combater o robô com força</button>
+            <button class="btn-proximo" data-proximo="8">Destruir os dispositivos restantes para enfraquecer o robô</button>
+        </div>
+
+        <!-- Passo 4 -->
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-rastro-de-energia.jpeg" alt="Rastros de energia">
+            <p>Os rastros de energia levam a uma instalação secreta, onde vocês descobrem planos para um ataque à Torre.</p>
+            <button class="btn-proximo" data-proximo="9">Destruir os planos e fugir</button>
+            <button class="btn-proximo" data-proximo="10">Preparar uma armadilha para os invasores</button>
+        </div>
+
+        <!-- Passo 5 -->
+        <div class="passo" id="passo-5">
+            <p>Robin enfrenta Slade em um combate intenso. Slade oferece uma aliança, alegando que há uma ameaça maior chegando.</p>
+            <button class="btn-proximo" data-proximo="11">Aceitar a aliança</button>
+            <button class="btn-proximo" data-proximo="12">Recusar e continuar o combate</button>
+        </div>
+
+        <!-- Passo 6 -->
+        <div class="passo" id="passo-6">
+            <p>A equipe consegue se reunir e desativar as armadilhas. Porém, Slade já escapou, deixando uma mensagem enigmática.</p>
+            <button class="btn-proximo" data-proximo="13">Seguir a mensagem</button>
+            <button class="btn-proximo" data-proximo="14">Reforçar a segurança na Torre</button>
+        </div>
+
+        <!-- Passos finais -->
+        <div class="passo" id="passo-7">
+            <p>O robô é derrotado, mas a batalha danifica a cidade. Vocês decidem consertar o que puderem antes de voltar para casa.</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ao destruir os dispositivos, o robô enfraquece e desativa. Vocês encontram informações sobre os planos de Slade.</p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Os planos são destruídos, mas vocês percebem que essa foi apenas uma distração de algo maior.</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Com a armadilha preparada, vocês conseguem capturar um dos aliados de Slade, obtendo novas pistas.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Robin decide colaborar com Slade temporariamente para enfrentar a nova ameaça, mas mantém a guarda alta.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Robin derrota Slade, mas a vitória vem com consequências: ele foge novamente, prometendo voltar.</p>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>A mensagem leva a um local misterioso, onde a equipe descobre um segredo sobre a origem de Slade.</p>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Com a Torre reforçada, os Titãs ficam preparados para a próxima investida de Slade.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
